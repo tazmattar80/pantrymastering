@@ -1,3 +1,8 @@
+<script>
+    import Navbar from '../Navbar.svelte'
+</script>
+
+<Navbar />
 <div class="about_cont">
     <h2>About</h2>
     <div class="about_info">
@@ -26,7 +31,7 @@
     </div>
 </div>
 
-<style>>
+<style>
     .about_cont h2 {
         font-size: 40px;
         margin-bottom: 20px;

@@ -1,4 +1,9 @@
 <!-- src/routes/+page.svelte -->
+<script>
+    import Navbar from './Navbar.svelte'
+</script>
+
+<Navbar />
 <div class="home_hero">
     <h1>Enjoy Static Site Hosting With Kinsta StSH.</h1>
     <p>Fast, Secure, Reliable Hosting Solution.</p>
